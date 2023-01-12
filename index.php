@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <?php
+
+<?php
 
 $message = "Tova raboti li?";
 echo "<h1> $message <h1/>";
@@ -50,8 +51,10 @@ $dateofassigment = "dateofassigment";
 $activity = "activity";
 $dateofremoval = "dateofremoval";
 
-$message = "Sus css she vkarame danite i sled tova she gi nakarame da rabotqt s crude";
+
+$message = "Sus css she vkarame danite i sled tova she gi nakarame da rabotqt s crude ei. izpolzvai: !<?php  include('server.php'); ?>!";
 echo "<h3> $message <h3/>";
 ?>
+
 </body>
 </html>
